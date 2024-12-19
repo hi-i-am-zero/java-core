@@ -61,7 +61,7 @@ public class Main {
                 }
             } catch (java.util.InputMismatchException e) {
                 System.out.println("Vui lòng nhập một số hợp lệ!");
-                scanner.nextLine(); // Clear invalid input
+                scanner.nextLine();
             }
         }
     }

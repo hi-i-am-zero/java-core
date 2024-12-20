@@ -20,6 +20,11 @@ public class Main {
             public void makeSound() {
                 System.out.println();
             }
+
+            @Override
+            public void action() {
+
+            }
         };
         tiger.eat();
     }

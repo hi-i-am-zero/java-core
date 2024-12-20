@@ -2,7 +2,7 @@ package buoi6.baitap;
 
 import java.util.Objects;
 
-public class Lion extends Animal{
+public class Lion extends Animal {
     @Override
     public void eat() {
         System.out.println("Lion is eating");
@@ -13,7 +13,7 @@ public class Lion extends Animal{
         System.out.println("Lion is roaring");
     }
 
-    public void roar(){
+    public void roar() {
         System.out.println("Lion is roaring");
     }
 
@@ -36,5 +36,22 @@ public class Lion extends Animal{
                 "age=" + age +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+    @Override
+    public void showInfo() {
+        System.out.println("Lion Info: ");
+        super.showInfo();
+    }
+
+    @Override
+    public void action() {
+        System.out.println("The lion is hunting");
+    }
+
+    @Override
+    public void enterInfor() {
+        System.out.println("Enter lion infor: ");
+        super.enterInfor();
     }
 }
